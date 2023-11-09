@@ -47,11 +47,10 @@ const Stake = () => {
   }, []);
 
   const [stakeAmount, setStakeAmount] = useState("0");
-  const [unstakeAmount, setUnstakeAmount] = useState("0");
-
+  
   function resetValue() {
     setStakeAmount("0");
-    setUnstakeAmount("0");
+   
   }
 
   const containerStyle = {
